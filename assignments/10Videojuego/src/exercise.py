@@ -1,7 +1,10 @@
 def main():
     #escribe tu código abajo de esta línea
     pass
-
+    nuevos=int(input('Dame la cantidad de juegos nuevos: '))
+    usados=int(input('Dame la cantidad de juegos usados: '))
+    precio=nuevos*1000+usados*350
+    print ('El total de la compra es: '+str(precio))
 
 
 
